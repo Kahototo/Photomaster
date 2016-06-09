@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EB053D31D0968BB003DAA61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB053D21D0968BB003DAA61 /* AppDelegate.swift */; };
+		5EB053D51D0968BB003DAA61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB053D41D0968BB003DAA61 /* ViewController.swift */; };
+		5EB053D81D0968BB003DAA61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB053D61D0968BB003DAA61 /* Main.storyboard */; };
+		5EB053DA1D0968BB003DAA61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB053D91D0968BB003DAA61 /* Assets.xcassets */; };
+		5EB053DD1D0968BB003DAA61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB053DB1D0968BB003DAA61 /* LaunchScreen.storyboard */; };
+		5EB053E81D0968BB003DAA61 /* PhptoMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB053E71D0968BB003DAA61 /* PhptoMasterTests.swift */; };
+		5EB053F31D0968BB003DAA61 /* PhptoMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB053F21D0968BB003DAA61 /* PhptoMasterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EB053E41D0968BB003DAA61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EB053C71D0968BB003DAA61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EB053CE1D0968BB003DAA61;
+			remoteInfo = PhptoMaster;
+		};
+		5EB053EF1D0968BB003DAA61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EB053C71D0968BB003DAA61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EB053CE1D0968BB003DAA61;
+			remoteInfo = PhptoMaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EB053CF1D0968BB003DAA61 /* PhptoMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhptoMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB053D21D0968BB003DAA61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5EB053D41D0968BB003DAA61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5EB053D71D0968BB003DAA61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EB053D91D0968BB003DAA61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EB053DC1D0968BB003DAA61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EB053DE1D0968BB003DAA61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EB053E31D0968BB003DAA61 /* PhptoMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhptoMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB053E71D0968BB003DAA61 /* PhptoMasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhptoMasterTests.swift; sourceTree = "<group>"; };
+		5EB053E91D0968BB003DAA61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EB053EE1D0968BB003DAA61 /* PhptoMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhptoMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB053F21D0968BB003DAA61 /* PhptoMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhptoMasterUITests.swift; sourceTree = "<group>"; };
+		5EB053F41D0968BB003DAA61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EB053CC1D0968BB003DAA61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB053E01D0968BB003DAA61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB053EB1D0968BB003DAA61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EB053C61D0968BB003DAA61 = {
+			isa = PBXGroup;
+			children = (
+				5EB053D11D0968BB003DAA61 /* PhptoMaster */,
+				5EB053E61D0968BB003DAA61 /* PhptoMasterTests */,
+				5EB053F11D0968BB003DAA61 /* PhptoMasterUITests */,
+				5EB053D01D0968BB003DAA61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EB053D01D0968BB003DAA61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EB053CF1D0968BB003DAA61 /* PhptoMaster.app */,
+				5EB053E31D0968BB003DAA61 /* PhptoMasterTests.xctest */,
+				5EB053EE1D0968BB003DAA61 /* PhptoMasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EB053D11D0968BB003DAA61 /* PhptoMaster */ = {
+			isa = PBXGroup;
+			children = (
+				5EB053D21D0968BB003DAA61 /* AppDelegate.swift */,
+				5EB053D41D0968BB003DAA61 /* ViewController.swift */,
+				5EB053D61D0968BB003DAA61 /* Main.storyboard */,
+				5EB053D91D0968BB003DAA61 /* Assets.xcassets */,
+				5EB053DB1D0968BB003DAA61 /* LaunchScreen.storyboard */,
+				5EB053DE1D0968BB003DAA61 /* Info.plist */,
+			);
+			path = PhptoMaster;
+			sourceTree = "<group>";
+		};
+		5EB053E61D0968BB003DAA61 /* PhptoMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EB053E71D0968BB003DAA61 /* PhptoMasterTests.swift */,
+				5EB053E91D0968BB003DAA61 /* Info.plist */,
+			);
+			path = PhptoMasterTests;
+			sourceTree = "<group>";
+		};
+		5EB053F11D0968BB003DAA61 /* PhptoMasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EB053F21D0968BB003DAA61 /* PhptoMasterUITests.swift */,
+				5EB053F41D0968BB003DAA61 /* Info.plist */,
+			);
+			path = PhptoMasterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EB053CE1D0968BB003DAA61 /* PhptoMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB053F71D0968BB003DAA61 /* Build configuration list for PBXNativeTarget "PhptoMaster" */;
+			buildPhases = (
+				5EB053CB1D0968BB003DAA61 /* Sources */,
+				5EB053CC1D0968BB003DAA61 /* Frameworks */,
+				5EB053CD1D0968BB003DAA61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhptoMaster;
+			productName = PhptoMaster;
+			productReference = 5EB053CF1D0968BB003DAA61 /* PhptoMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EB053E21D0968BB003DAA61 /* PhptoMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB053FA1D0968BB003DAA61 /* Build configuration list for PBXNativeTarget "PhptoMasterTests" */;
+			buildPhases = (
+				5EB053DF1D0968BB003DAA61 /* Sources */,
+				5EB053E01D0968BB003DAA61 /* Frameworks */,
+				5EB053E11D0968BB003DAA61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EB053E51D0968BB003DAA61 /* PBXTargetDependency */,
+			);
+			name = PhptoMasterTests;
+			productName = PhptoMasterTests;
+			productReference = 5EB053E31D0968BB003DAA61 /* PhptoMasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EB053ED1D0968BB003DAA61 /* PhptoMasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB053FD1D0968BB003DAA61 /* Build configuration list for PBXNativeTarget "PhptoMasterUITests" */;
+			buildPhases = (
+				5EB053EA1D0968BB003DAA61 /* Sources */,
+				5EB053EB1D0968BB003DAA61 /* Frameworks */,
+				5EB053EC1D0968BB003DAA61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EB053F01D0968BB003DAA61 /* PBXTargetDependency */,
+			);
+			name = PhptoMasterUITests;
+			productName = PhptoMasterUITests;
+			productReference = 5EB053EE1D0968BB003DAA61 /* PhptoMasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EB053C71D0968BB003DAA61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "小西夏穂";
+				TargetAttributes = {
+					5EB053CE1D0968BB003DAA61 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = QB37YPBUCJ;
+					};
+					5EB053E21D0968BB003DAA61 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = QB37YPBUCJ;
+						TestTargetID = 5EB053CE1D0968BB003DAA61;
+					};
+					5EB053ED1D0968BB003DAA61 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = QB37YPBUCJ;
+						TestTargetID = 5EB053CE1D0968BB003DAA61;
+					};
+				};
+			};
+			buildConfigurationList = 5EB053CA1D0968BB003DAA61 /* Build configuration list for PBXProject "PhptoMaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EB053C61D0968BB003DAA61;
+			productRefGroup = 5EB053D01D0968BB003DAA61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EB053CE1D0968BB003DAA61 /* PhptoMaster */,
+				5EB053E21D0968BB003DAA61 /* PhptoMasterTests */,
+				5EB053ED1D0968BB003DAA61 /* PhptoMasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EB053CD1D0968BB003DAA61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB053DD1D0968BB003DAA61 /* LaunchScreen.storyboard in Resources */,
+				5EB053DA1D0968BB003DAA61 /* Assets.xcassets in Resources */,
+				5EB053D81D0968BB003DAA61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB053E11D0968BB003DAA61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB053EC1D0968BB003DAA61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EB053CB1D0968BB003DAA61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB053D51D0968BB003DAA61 /* ViewController.swift in Sources */,
+				5EB053D31D0968BB003DAA61 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB053DF1D0968BB003DAA61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB053E81D0968BB003DAA61 /* PhptoMasterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB053EA1D0968BB003DAA61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB053F31D0968BB003DAA61 /* PhptoMasterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EB053E51D0968BB003DAA61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EB053CE1D0968BB003DAA61 /* PhptoMaster */;
+			targetProxy = 5EB053E41D0968BB003DAA61 /* PBXContainerItemProxy */;
+		};
+		5EB053F01D0968BB003DAA61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EB053CE1D0968BB003DAA61 /* PhptoMaster */;
+			targetProxy = 5EB053EF1D0968BB003DAA61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EB053D61D0968BB003DAA61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EB053D71D0968BB003DAA61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EB053DB1D0968BB003DAA61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EB053DC1D0968BB003DAA61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EB053F51D0968BB003DAA61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EB053F61D0968BB003DAA61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EB053F81D0968BB003DAA61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhptoMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.PhptoMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5EB053F91D0968BB003DAA61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhptoMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.PhptoMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5EB053FB1D0968BB003DAA61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhptoMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.PhptoMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhptoMaster.app/PhptoMaster";
+			};
+			name = Debug;
+		};
+		5EB053FC1D0968BB003DAA61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhptoMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.PhptoMasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhptoMaster.app/PhptoMaster";
+			};
+			name = Release;
+		};
+		5EB053FE1D0968BB003DAA61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhptoMasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.PhptoMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhptoMaster;
+			};
+			name = Debug;
+		};
+		5EB053FF1D0968BB003DAA61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhptoMasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.PhptoMasterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhptoMaster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EB053CA1D0968BB003DAA61 /* Build configuration list for PBXProject "PhptoMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB053F51D0968BB003DAA61 /* Debug */,
+				5EB053F61D0968BB003DAA61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EB053F71D0968BB003DAA61 /* Build configuration list for PBXNativeTarget "PhptoMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB053F81D0968BB003DAA61 /* Debug */,
+				5EB053F91D0968BB003DAA61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5EB053FA1D0968BB003DAA61 /* Build configuration list for PBXNativeTarget "PhptoMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB053FB1D0968BB003DAA61 /* Debug */,
+				5EB053FC1D0968BB003DAA61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5EB053FD1D0968BB003DAA61 /* Build configuration list for PBXNativeTarget "PhptoMasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB053FE1D0968BB003DAA61 /* Debug */,
+				5EB053FF1D0968BB003DAA61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EB053C71D0968BB003DAA61 /* Project object */;
+}
