@@ -14,6 +14,8 @@
 		5EB053DD1D0968BB003DAA61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB053DB1D0968BB003DAA61 /* LaunchScreen.storyboard */; };
 		5EB053E81D0968BB003DAA61 /* PhptoMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB053E71D0968BB003DAA61 /* PhptoMasterTests.swift */; };
 		5EB053F31D0968BB003DAA61 /* PhptoMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB053F21D0968BB003DAA61 /* PhptoMasterUITests.swift */; };
+		5EB054471D0A9C4B003DAA61 /* ロケット.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EB054461D0A9C4B003DAA61 /* ロケット.jpg */; };
+		5EB054491D0AA598003DAA61 /* lifeistech.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EB054481D0AA598003DAA61 /* lifeistech.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		5EB053EE1D0968BB003DAA61 /* PhptoMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhptoMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB053F21D0968BB003DAA61 /* PhptoMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhptoMasterUITests.swift; sourceTree = "<group>"; };
 		5EB053F41D0968BB003DAA61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EB054461D0A9C4B003DAA61 /* ロケット.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ロケット.jpg"; sourceTree = "<group>"; };
+		5EB054481D0AA598003DAA61 /* lifeistech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lifeistech.png; path = ../lifeistech.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		5EB053C61D0968BB003DAA61 = {
 			isa = PBXGroup;
 			children = (
+				5EB054461D0A9C4B003DAA61 /* ロケット.jpg */,
 				5EB053D11D0968BB003DAA61 /* PhptoMaster */,
 				5EB053E61D0968BB003DAA61 /* PhptoMasterTests */,
 				5EB053F11D0968BB003DAA61 /* PhptoMasterUITests */,
@@ -101,6 +106,7 @@
 				5EB053D41D0968BB003DAA61 /* ViewController.swift */,
 				5EB053D61D0968BB003DAA61 /* Main.storyboard */,
 				5EB053D91D0968BB003DAA61 /* Assets.xcassets */,
+				5EB054481D0AA598003DAA61 /* lifeistech.png */,
 				5EB053DB1D0968BB003DAA61 /* LaunchScreen.storyboard */,
 				5EB053DE1D0968BB003DAA61 /* Info.plist */,
 			);
@@ -232,7 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EB054471D0A9C4B003DAA61 /* ロケット.jpg in Resources */,
 				5EB053DD1D0968BB003DAA61 /* LaunchScreen.storyboard in Resources */,
+				5EB054491D0AA598003DAA61 /* lifeistech.png in Resources */,
 				5EB053DA1D0968BB003DAA61 /* Assets.xcassets in Resources */,
 				5EB053D81D0968BB003DAA61 /* Main.storyboard in Resources */,
 			);
@@ -403,6 +411,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhptoMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.PhptoMaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +423,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhptoMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.PhptoMaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -485,6 +495,7 @@
 				5EB053F91D0968BB003DAA61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EB053FA1D0968BB003DAA61 /* Build configuration list for PBXNativeTarget "PhptoMasterTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +504,7 @@
 				5EB053FC1D0968BB003DAA61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EB053FD1D0968BB003DAA61 /* Build configuration list for PBXNativeTarget "PhptoMasterUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +513,7 @@
 				5EB053FF1D0968BB003DAA61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
